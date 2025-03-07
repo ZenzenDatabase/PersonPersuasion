@@ -22,5 +22,4 @@
 
 ---
 
-The reviewer also noted that our work **"may be better seen as a proof of concept regarding the underlying hypothesis than a fully optimized result."**  
 Our results provide strong evidence supporting our hypothesis: causal discovery, in combination with hidden psychological factors and unobserved noise influencing state-action transition dynamics, enables a principled counterfactual inference approach that leads to improved outcomes.
