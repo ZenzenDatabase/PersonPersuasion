@@ -97,7 +97,7 @@ integration with causal discovery compared to baseline and random strategies.
 
 #### Confidence Intervals
 
-By performing a 100-time bootstrap resampling procedure to compute a confidence interval (CI) for the difference in means between two datasets (e.g., data1 and data2), based on random resampling. 
+By performing a 100-time bootstrap resampling procedure to compute a confidence interval (CI) for the difference in means between two datasets (e.g., data1 and data2), based on random resampling. Refer to [Link](https://numpy.org/doc/2.1/reference/generated/numpy.percentile.html)
 
 - **BiCoGAN + Latent + CD vs. BiCoGAN + CD**:  
   The difference in means between BiCoGAN + Latent + CD and BiCoGAN + CD is statistically significant, with the 95% confidence interval for the difference being **(1.46, 1.93)**. This indicates that the latent variable integration significantly improves donation outcomes compared to the BiCoGAN + CD method.  
