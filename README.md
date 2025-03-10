@@ -2,15 +2,15 @@
 
 # Supplementary Materials
 
- ** A. Theoretical Foundations, Motivations, and Justifications of the Methods. [Link](#A.-Theoretical-Foundations,-Motivations,-and-Justifications-of-the-Methods.) **
+A.  Theoretical Foundations, Motivations, and Justifications of the Methods. [Link](#A.-Theoretical-Foundations,-Motivations,-and-Justifications-of-the-Methods.)
 
- ** B. Reproducibility [Link](#B.-Reproducibility) **
+B.  Reproducibility [Link](#B.-Reproducibility)
 
- ** C. Statistical Tests of Significance [Link](#C.-Statistical-Tests-of-Significance) **
+C.  Statistical Tests of Significance [Link](#C.-Statistical-Tests-of-Significance)
 
- ** D. Codes [Link](#D.-Codes) **
+D.  Codes [Link](#D.-Codes)
 
-## A. Theoretical Foundations, Motivations, and Justifications of the Methods.(#sample-section)
+## A. Theoretical Foundations, Motivations, and Justifications of the Methods.
 
 Our choice of methods is driven by their sufficiency in testing our hypothesis—the ideal persuasive system actions emerge as byproducts of a generative framework that leverages causal, counterfactual, and latent factor (hidden personality traits and unobserved noise) components to improve persuasion outcomes. We aim to validate the added effect of the hypothesis-related components when compared, ceteris paribus, to the recent generative framework of (Zeng et al., Persuasive 2024), which we treated as the "vanilla"/control (baseline) version. This means that, apart from the hypothesis-supporting components, we adopted the parts of the control version. In effect, we adopted a baseline that provided a simple, straightforward, and effective starting point for comparison that helped prove our hypothesis and demonstrate its benefits. Furthermore, while our results clearly evidence the potential of our generative framework for optimization over the baseline, more can be done to achieve full optimization. Given that the components of our framework are modularized, future work may explore alternative methods to enable further optimization.
 
@@ -43,7 +43,6 @@ This model reduces overestimation bias in Q-values. Its dual Q-networks ensure s
 
 
 ## B. Reproducibility
-section*{Reproducibility}
 
 We discuss here the details necessary to reproduce the various aspects of our generative framework.
 
