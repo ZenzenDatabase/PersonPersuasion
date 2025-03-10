@@ -2,13 +2,13 @@
 
 # Supplementary Materials
 
-A.  Theoretical Foundations, Motivations, and Justifications of the Methods. [Link](#a-theoretical-foundations-motivations-and-justifications-of-the-methods)
+A.  Theoretical Foundations, Motivations, and Justifications of the Methods. <!-- [Link](#a-theoretical-foundations-motivations-and-justifications-of-the-methods)-->
 
-B.  Reproducibility [Link](#b-reproducibility)
+B.  Reproducibility <!-- [Link](#b-reproducibility)-->
 
-C.  Statistical Tests of Significance [Link](#c-statistical-tests-of-significance)
+C.  Statistical Tests of Significance <!-- [Link](#c-statistical-tests-of-significance)-->
 
-D.  Codes [Link](#d-codes)
+D.  Codes <!-- [Link](#d-codes) -->
 
 ## A. Theoretical Foundations, Motivations, and Justifications of the Methods.
 
@@ -88,17 +88,16 @@ outcomes, we conducted Welch’s t-tests to compare different strategies. The
 results indicate statistically significant improvements when using latent variable
 integration with causal discovery compared to baseline and random strategies.
 
-- **CD_Latent_BiCoGAN vs. CD_BiCoGAN**: p-value < .001 
-- **CD_Latent_BiCoGAN vs. Random_Latent_BiCoGAN**: p-value < .001 
-- **CD_Latent_BiCoGAN vs. Random_BiCoGAN**: p-value < .001 
-
-*** KQR-based Models ***
-
-- **CD_Latent_KQR vs. CD_KQR**: p-value < .001 
-- **CD_Latent_KQR vs. Random_Latent_KQR**: p-value < .001 
-- **CD_Latent_KQR vs. Random_KQR**: p-value < .001 
+- **CD_Latent_BiCoGAN vs. CD_BiCoGAN**: p < .001 
+- **CD_Latent_BiCoGAN vs. Random_Latent_BiCoGAN**: p < .001 
+- **CD_Latent_BiCoGAN vs. Random_BiCoGAN**: p < .001 
+- **CD_Latent_KQR vs. CD_KQR**: p < .001 
+- **CD_Latent_KQR vs. Random_Latent_KQR**: p < .001 
+- **CD_Latent_KQR vs. Random_KQR**: p < .001 
 
 #### Confidence Intervals
+
+By performing a 100-time bootstrap resampling procedure to compute a confidence interval (CI) for the difference in means between two datasets (e.g., data1 and data2), based on random resampling. 
 
 - **BiCoGAN + Latent + CD vs. BiCoGAN + CD**:  
   The difference in means between BiCoGAN + Latent + CD and BiCoGAN + CD is statistically significant, with the 95% confidence interval for the difference being **(1.46, 1.93)**. This indicates that the latent variable integration significantly improves donation outcomes compared to the BiCoGAN + CD method.  
@@ -108,8 +107,6 @@ integration with causal discovery compared to baseline and random strategies.
 
 - **BiCoGAN + Latent + CD vs. Random BiCoGAN**:  
   The confidence interval **(2.85, 3.25)** indicates a statistically significant improvement in donation amounts for BiCoGAN + Latent + CD compared to Random BiCoGAN.  
-
-*** KQR-based Models ***  
 
 - **KQR + Latent + CD vs. KQR + CD**:  
   The difference in means between KQR + Latent + CD and KQR + CD is statistically significant, with the confidence interval **(0.94, 1.17)**. This suggests a notable improvement in donations when integrating latent variables with causal discovery.  
