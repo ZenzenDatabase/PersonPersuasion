@@ -2,13 +2,13 @@
 
 # Supplementary Materials
 
- A. Theoretical Foundations, Motivations, and Justifications of the Methods. [Link](#A.-Theoretical-Foundations,-Motivations,-and-Justifications-of-the-Methods.)
+ **A. Theoretical Foundations, Motivations, and Justifications of the Methods. [Link](#A.-Theoretical-Foundations,-Motivations,-and-Justifications-of-the-Methods.) **
 
- B. Reproducibility [Link](#B.-Reproducibility)
+ **B. Reproducibility [Link](#B.-Reproducibility) **
 
- C. Statistical Tests of Significance [Link](#C.-Statistical-Tests-of-Significance)
+ **C. Statistical Tests of Significance [Link](#C.-Statistical-Tests-of-Significance) **
 
- D. Codes [Link](#D.-Codes)
+ **D. Codes [Link](#D.-Codes) **
 
 ## A. Theoretical Foundations, Motivations, and Justifications of the Methods.(#sample-section)
 
