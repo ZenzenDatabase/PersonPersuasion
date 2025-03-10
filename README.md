@@ -93,15 +93,15 @@ integration with causal discovery compared to baseline and random strategies.
 
 *** BiCoGAN-based Models ***
 
-- **CD_Latent_BiCoGAN vs. CD_BiCoGAN**: \( 8.18 * 10^{-66} \)
-- **CD_Latent_BiCoGAN vs. Random_Latent_BiCoGAN**: \( 6.51 * 10^{-294} \)
-- **CD_Latent_BiCoGAN vs. Random_BiCoGAN**: \( 1.87 * 10^{-195} \)
+- **CD_Latent_BiCoGAN vs. CD_BiCoGAN**: p-value = 8.18 * 10^{-66} 
+- **CD_Latent_BiCoGAN vs. Random_Latent_BiCoGAN**: p-value = 6.51 * 10^{-294} 
+- **CD_Latent_BiCoGAN vs. Random_BiCoGAN**: p-value = 1.87 * 10^{-195}
 
 *** KQR-based Models ***
 
-- **CD_Latent_KQR vs. CD_KQR**: \( 1.66 * 10^{-75} \)
-- **CD_Latent_KQR vs. Random_Latent_KQR**: \( 1 * 10^{-300} \)
-- **CD_Latent_KQR vs. Random_KQR**: \( 1 * 10^{-300} \)
+- **CD_Latent_KQR vs. CD_KQR**: p-value = 1.66 * 10^{-75}
+- **CD_Latent_KQR vs. Random_Latent_KQR**: p-value = 1 * 10^{-300}
+- **CD_Latent_KQR vs. Random_KQR**: p-value = 1 * 10^{-300}
 
 #### Confidence Intervals
 
