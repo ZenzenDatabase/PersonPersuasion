@@ -1,0 +1,40 @@
+B2,B4,Turn,Unit,er_label_1,ee_label_1
+20180719-210146_172_live,0,0,Hello. How are you?,"greeting, greeting",
+20180719-210146_172_live,1,0,"I'm good, how are you doing?",,greeting
+20180719-210146_172_live,0,1,Very well. I'm just up organizing info for my charity. Are you involved with charities?,"greeting, other, task-related-inquiry",
+20180719-210146_172_live,1,1,Yes! I work with children who have terminal illnesses. What charity are you involved in?,,"positive-to-inquiry, positive-to-inquiry, task-related-inquiry"
+20180719-210146_172_live,0,2,That's great! I help with Save The Children.,"acknowledgement, neutral-to-inquiry",
+20180719-210146_172_live,1,2,Amazing! Working with kids is the best. What do you do for Save the Children?,,"acknowledgement, positive-reaction-to-donation, task-related-inquiry"
+20180719-210146_172_live,0,3,I help raise donations and volunteer time.,neutral-to-inquiry,
+20180719-210146_172_live,1,3,That's so important. How do you raise donations?,,"acknowledgement, task-related-inquiry"
+20180719-210146_172_live,0,4,By directly asking for aid. Do you currently donate to your charity?,"neutral-to-inquiry, task-related-inquiry",
+20180719-210146_172_live,1,4,"Yes I do, but I'm happy to donate to yours as well!",,agree-donation
+20180719-210146_172_live,0,5,"Wonderful! Would you be will to donate $1.00 of your task money to help Save the Children? Save The Children is an international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries.","acknowledgement, proposition-of-donation, credibility-appeal",
+20180719-210146_172_live,1,5,"Yes, I would be happy to!",,agree-donation
+20180719-210146_172_live,0,6,Would $2.00 be too much to ask?,ask-donate-more,
+20180719-210146_172_live,1,6,"No, I can do it.",,agree-donation
+20180719-210146_172_live,0,7,Thank you. Can we make it $1.50? These children really need the assistance.,"thank, confirm-donation, logical-appeal",
+20180719-210146_172_live,1,7,$1.50 sounds good then.,,provide-donation-amount
+20180719-210146_172_live,0,8,Why not $1.75 then? :-),ask-donate-more,
+20180719-210146_172_live,1,8,I can do $2.00! Happy to help.,,"provide-donation-amount, positive-reaction-to-donation"
+20180719-210146_172_live,0,9,Thank you so much! Do you have any more questions for me?,"thank, task-related-inquiry",
+20180719-210146_172_live,1,9,Nope. Thank you!,,"negative-to-inquiry, thank"
+20180829-084042_694_live,1,0,how are you today?,,greeting
+20180829-084042_694_live,0,1,so you gonna donate or what,proposition-of-donation,
+20180829-084042_694_live,1,1,sure I can donate but what is the game?,,agree-donation
+20180829-084042_694_live,0,2,you gotta donate your payment,proposition-of-donation,
+20180829-084042_694_live,1,2,"If I donate, what do I get in return? Will you donate the same amount back to me?",,"task-related-inquiry, task-related-inquiry"
+20180829-084042_694_live,0,3,"No, I don\'t believe that\'s the case. However, it\'s for a good cause. Save the children. dont you like children? they need your help. its just 2 bucks. or ill tell you what, how about just half?","negative-to-inquiry, neutral-to-inquiry, logical-appeal, personal-related-inquiry, logical-appeal, proposition-of-donation",
+20180829-084042_694_live,1,3,I'll give .50 if you send are actually an mturk human. respond with your mturk number and I'll donate .50,,"provide-donation-amount, provide-donation-amount"
+20180829-084042_694_live,0,4,"why should i give you my mturk number? also, i think you should be a little bit more generous, come on bro, 1 dollar wont kill you.","task-related-inquiry, ask-donate-more",
+20180829-084042_694_live,1,4,"ok, I'll do $1 but I want to know your mturk worker ID to prove it's a person",,agree-donation
+20180829-084042_694_live,0,5,"no you could use my info to do some sketchy crap. Don't i sound human, what kind of AI talks like this. Also, im skeptical to see if youre actually human. tell me a joke to prove it. robots cant laugh, a im sure you know","off-task, off-task, off-task, off-task, off-task",
+20180829-084042_694_live,1,5,That's true. I do believe you are human based on the conversation. I'll donate a $1.,,"acknowledgement, other, provide-donation-amount"
+20180829-084042_694_live,0,6,sounds good thanks,thank,
+20180829-084042_694_live,1,6,Hopefully it is for a good cause and not just a waste.,,off-task
+20180829-084042_694_live,0,7,"its for a good cause, im not a complete asshat",off-task,
+20180829-084042_694_live,1,7,that's good. you do have to be skeptical though,,"acknowledgement, other"
+20180829-084042_694_live,0,8,I hear ya. When is this over?,"off-task, off-task",
+20180829-084042_694_live,1,8,I was wondering the same thing. I think it's 10 exchanges,,"off-task, off-task"
+20180829-084042_694_live,0,9,how many has it been?,off-task,
+20180829-084042_694_live,1,9,I haven't counted but we must be very close. Hopefully we can move on soon to get back to other tasks.,,"off-task, off-task"
