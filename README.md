@@ -2,15 +2,14 @@
 
 # Supplementary Materials
 
-A.  Theoretical Foundations, Motivations, and Justifications of the Methods. [Link](#A.-Theoretical-Foundations,-Motivations,-and-Justifications-of-the-Methods.)
+A.  Theoretical Foundations, Motivations, and Justifications of the Methods. [Link](#a-theoretical-foundations-motivations-and-justifications-of-the-methods)
 
-B.  Reproducibility [Link](#B.-Reproducibility)
+B.  Reproducibility [Link](#b-reproducibility)
 
-C.  Statistical Tests of Significance [Link](#C.-Statistical-Tests-of-Significance)
+C.  Statistical Tests of Significance [Link](#c-statistical-tests-of-significance)
 
-D.  Codes [Link](#D.-Codes)
+D.  Codes [Link](#d-codes)
 
-Please refer to [model](#Model)
 
 
 
@@ -133,7 +132,7 @@ integration with causal discovery compared to baseline and random strategies.
 
 The results demonstrate that integrating latent personality and causal discovery significantly enhances donation outcomes in both BICOGAN and KQR models compared to random strategies, with statistical tests confirming the improvements are not due to chance. This highlights the effectiveness of causal discovery in persuasion strategies.
 
-# Model
+
 ## D. Codes
 
 Refer to the [How_to_use_trained_models.ipynb](./How_to_use_trained_models.ipynb) for instructions on using the trained models with example inputs.
