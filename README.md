@@ -123,5 +123,5 @@ The results demonstrate that integrating latent personality and causal discovery
 
 ## D. Codes
 
-Refer to the [📂 How_to_use_trained_models.ipynb](./How_to_use_trained_models.ipynb) for instructions on using the trained models with example inputs.
+Refer to the [How_to_use_trained_models.ipynb](./How_to_use_trained_models.ipynb) for instructions on using the trained models with example inputs.
 We shall make the codes and libraries be available if our paper is accepted.
