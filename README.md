@@ -91,15 +91,15 @@ outcomes, we conducted Welch’s t-tests to compare different strategies. The
 results indicate statistically significant improvements when using latent variable
 integration with causal discovery compared to baseline and random strategies.
 
-- **CD_Latent_BiCoGAN vs. CD_BiCoGAN**: p-value <0.001 
-- **CD_Latent_BiCoGAN vs. Random_Latent_BiCoGAN**: p-value <0.001 
-- **CD_Latent_BiCoGAN vs. Random_BiCoGAN**: p-value <0.001 
+- **CD_Latent_BiCoGAN vs. CD_BiCoGAN**: p-value < .001 
+- **CD_Latent_BiCoGAN vs. Random_Latent_BiCoGAN**: p-value < .001 
+- **CD_Latent_BiCoGAN vs. Random_BiCoGAN**: p-value < .001 
 
 *** KQR-based Models ***
 
-- **CD_Latent_KQR vs. CD_KQR**: p-value <0.001 
-- **CD_Latent_KQR vs. Random_Latent_KQR**: p-value <0.001 
-- **CD_Latent_KQR vs. Random_KQR**: p-value <0.001 
+- **CD_Latent_KQR vs. CD_KQR**: p-value < .001 
+- **CD_Latent_KQR vs. Random_Latent_KQR**: p-value < .001 
+- **CD_Latent_KQR vs. Random_KQR**: p-value < .001 
 
 #### Confidence Intervals
 
