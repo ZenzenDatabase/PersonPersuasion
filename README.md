@@ -72,6 +72,15 @@ We generated 50 counterfactual dialogues using different sets of counterfactual 
 
 ## C. Statistical Tests of Significance
 
+### Statistical tests for the robustness of identified causal relationships of GRaSP.
+To assess the robustness of our causal discovery results, we conducted
+100 bootstrap resampling experiments and applied GRaSP to each sample. We
+found that 85% of all detected edges appeared in at least 80% of the bootstrap
+samples, indicating strong reliability of the inferred causal relationships.
+Additionally, several key edges, such as (negative-to-inquiry → logic-appeal,
+appearing in 95% of bootstraps), remained highly stable, further validating the
+robustness of our causal discovery process.
+
 ### Statistical Validation for Claims: persuasion outcome.
 
 #### p-value (T-test)
