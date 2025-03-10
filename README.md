@@ -1,4 +1,4 @@
-# PersonPersuasion
+# Generative Framework for Personalized Persuasion: Inferring Causal, Counterfactual, and Latent Knowledge
 
 ## Model Selection Criteria
 
