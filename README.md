@@ -60,7 +60,7 @@ In P4G, the BIg Five are represented as continuous values between 1 and 5 (e.g.,
  
 ### Data Preprocessing
 
-We preprocessed the data through the following steps. Firstly, consecutive utterances from the same role, persuader or persuadee, were combined. We then performed tokenization, specifically, we used the ``BertTokenizerFast'' from the pretrained ``google-bert/bert-base-uncased''. This ensured the sequences are either padded or truncated to a maximum length of 512 tokens. Each dialogue is then converted into BERT embeddings following the implementation details provided in https://huggingface.co/docs/transforodeers/en/model_doc/bert.Finally, we transformed the donation amounts by scaling each user donation to a given range (Min to Max).  
+We preprocessed the data through the following steps. Firstly, consecutive utterances from the same role, persuader or persuadee, were combined. We then performed tokenization, specifically, we used the ``BertTokenizerFast'' from the pretrained ``google-bert/bert-base-uncased''. This ensured the sequences are either padded or truncated to a maximum length of 512 tokens. Each dialogue is then converted into BERT embeddings following the implementation details provided in https://huggingface.co/docs/transforodeers/en/model_doc/bert. Finally, we transformed the donation amounts by scaling each user donation to a given range (Min to Max).  
 
 ### Model Implementation, Training and Testing
 
